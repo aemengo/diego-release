@@ -11,6 +11,7 @@ inputs:
   - name: diego-release
 
 params:
+  NODES:
   PACKAGE:
   SCRIPT:
   SQL_FLAVOR:
