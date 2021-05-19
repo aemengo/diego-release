@@ -12,7 +12,6 @@ code.cloudfoundry.org/auctioneer
 code.cloudfoundry.org/bbs
 code.cloudfoundry.org/benchmarkbbs
 code.cloudfoundry.org/buildpackapplifecycle
-code.cloudfoundry.org/bytefmt
 code.cloudfoundry.org/cacheddownloader
 code.cloudfoundry.org/certsplitter
 code.cloudfoundry.org/cfdot

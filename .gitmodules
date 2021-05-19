@@ -70,10 +70,6 @@
 	path = src/code.cloudfoundry.org/route-emitter
 	url = https://github.com/cloudfoundry/route-emitter
 	branch = master
-[submodule "src/code.cloudfoundry.org/bytefmt"]
-	path = src/code.cloudfoundry.org/bytefmt
-	url = https://github.com/cloudfoundry/bytefmt
-	branch = master
 [submodule "src/code.cloudfoundry.org/eventhub"]
 	path = src/code.cloudfoundry.org/eventhub
 	url = https://github.com/cloudfoundry/eventhub
