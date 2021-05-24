@@ -9,7 +9,7 @@ import (
 	"code.cloudfoundry.org/debugserver"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"
 	"code.cloudfoundry.org/durationjson"
-	executorinit "code.cloudfoundry.org/executor/initializer"
+	executorinit "code.cloudfoundry.org/diego-release/executor/initializer"
 	"code.cloudfoundry.org/lager/lagerflags"
 	"code.cloudfoundry.org/diego-release/locket"
 	"code.cloudfoundry.org/diego-release/rep/cmd/rep/config"

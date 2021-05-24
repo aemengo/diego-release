@@ -3,15 +3,8 @@
 code.cloudfoundry.org/archiver/compressor
 code.cloudfoundry.org/archiver/extractor
 code.cloudfoundry.org/archiver/extractor/test_helper
-# code.cloudfoundry.org/auction v0.0.0-20210519165727-96d7bdfd7ee8
-## explicit
-code.cloudfoundry.org/auction/auctionrunner
-code.cloudfoundry.org/auction/auctiontypes
-code.cloudfoundry.org/auction/auctiontypes/fakes
-code.cloudfoundry.org/auction/simulation/simulationrep
-# code.cloudfoundry.org/auctioneer v0.0.0-20210519145200-e6d440097bd9
-code.cloudfoundry.org/auctioneer
 # code.cloudfoundry.org/bbs v0.0.0-20210519145251-c06235088f64
+## explicit
 code.cloudfoundry.org/bbs/encryption
 code.cloudfoundry.org/bbs/format
 code.cloudfoundry.org/bbs/models
@@ -21,6 +14,7 @@ code.cloudfoundry.org/bytefmt
 # code.cloudfoundry.org/cacheddownloader v0.0.0-20201214151716-97cc1d934c0e
 ## explicit
 code.cloudfoundry.org/cacheddownloader
+code.cloudfoundry.org/cacheddownloader/cacheddownloaderfakes
 # code.cloudfoundry.org/cfhttp v2.0.0+incompatible
 ## explicit
 code.cloudfoundry.org/cfhttp
@@ -73,27 +67,13 @@ code.cloudfoundry.org/ecrhelper/fakes
 code.cloudfoundry.org/eventhub
 # code.cloudfoundry.org/executor v0.0.0-20210512135645-c26d5d5f7fc4
 ## explicit
-code.cloudfoundry.org/executor
-code.cloudfoundry.org/executor/containermetrics
-code.cloudfoundry.org/executor/depot
-code.cloudfoundry.org/executor/depot/containerstore
-code.cloudfoundry.org/executor/depot/event
-code.cloudfoundry.org/executor/depot/log_streamer
-code.cloudfoundry.org/executor/depot/metrics
-code.cloudfoundry.org/executor/depot/steps
-code.cloudfoundry.org/executor/depot/transformer
-code.cloudfoundry.org/executor/depot/uploader
-code.cloudfoundry.org/executor/fakes
-code.cloudfoundry.org/executor/gardenhealth
-code.cloudfoundry.org/executor/guidgen
-code.cloudfoundry.org/executor/initializer
-code.cloudfoundry.org/executor/initializer/configuration
 # code.cloudfoundry.org/garden v0.0.0-20210208153517-580cadd489d2
 ## explicit
 code.cloudfoundry.org/garden
 code.cloudfoundry.org/garden/client
 code.cloudfoundry.org/garden/client/connection
 code.cloudfoundry.org/garden/client/connection/connectionfakes
+code.cloudfoundry.org/garden/gardenfakes
 code.cloudfoundry.org/garden/routes
 code.cloudfoundry.org/garden/server
 code.cloudfoundry.org/garden/server/bomberman
@@ -101,6 +81,7 @@ code.cloudfoundry.org/garden/server/streamer
 code.cloudfoundry.org/garden/server/timebomb
 code.cloudfoundry.org/garden/transport
 # code.cloudfoundry.org/go-diodes v0.0.0-20190809170250-f77fb823c7ee
+## explicit
 code.cloudfoundry.org/go-diodes
 # code.cloudfoundry.org/go-loggregator v7.4.0+incompatible
 ## explicit
@@ -126,6 +107,7 @@ code.cloudfoundry.org/lager/lagertest
 ## explicit
 code.cloudfoundry.org/localip
 # code.cloudfoundry.org/locket v0.0.0-20210519145606-91fc7012746e
+## explicit
 code.cloudfoundry.org/locket
 code.cloudfoundry.org/locket/models
 # code.cloudfoundry.org/operationq v0.0.0-20200131001003-92b5466fbd6c
@@ -133,8 +115,9 @@ code.cloudfoundry.org/locket/models
 code.cloudfoundry.org/operationq
 code.cloudfoundry.org/operationq/fake_operationq
 # code.cloudfoundry.org/rep v0.0.0-20210519145653-e7730d4b6735
-code.cloudfoundry.org/rep
+## explicit
 # code.cloudfoundry.org/rfc5424 v0.0.0-20201103192249-000122071b78
+## explicit
 code.cloudfoundry.org/rfc5424
 # code.cloudfoundry.org/routing-api v0.0.0-20210519201915-b3b118a368e6
 ## explicit
@@ -169,6 +152,7 @@ code.cloudfoundry.org/volman
 code.cloudfoundry.org/volman/voldiscoverers
 code.cloudfoundry.org/volman/voldocker
 code.cloudfoundry.org/volman/vollocal
+code.cloudfoundry.org/volman/volmanfakes
 # code.cloudfoundry.org/workpool v0.0.0-20200131000409-2ac56b354115
 ## explicit
 code.cloudfoundry.org/workpool
@@ -177,12 +161,19 @@ github.com/Azure/go-ansiterm
 github.com/Azure/go-ansiterm/winterm
 # github.com/BurntSushi/toml v0.3.1
 github.com/BurntSushi/toml
+# github.com/GaryBoone/GoStats v0.0.0-20130122001700-1993eafbef57
+## explicit
+github.com/GaryBoone/GoStats/stats
 # github.com/Microsoft/go-winio v0.5.0
 github.com/Microsoft/go-winio
 github.com/Microsoft/go-winio/pkg/guid
+# github.com/ajstarks/svgo v0.0.0-20210406150507-75cfd577ce75
+## explicit
+github.com/ajstarks/svgo
 # github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da
 github.com/armon/go-metrics
-# github.com/aws/aws-sdk-go v1.38.42
+# github.com/aws/aws-sdk-go v1.38.46
+## explicit
 github.com/aws/aws-sdk-go/aws
 github.com/aws/aws-sdk-go/aws/awserr
 github.com/aws/aws-sdk-go/aws/awsutil
@@ -225,14 +216,15 @@ github.com/aws/aws-sdk-go/service/sso
 github.com/aws/aws-sdk-go/service/sso/ssoiface
 github.com/aws/aws-sdk-go/service/sts
 github.com/aws/aws-sdk-go/service/sts/stsiface
-# github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.0.0-20210324191134-efd1603705e9
+# github.com/awslabs/amazon-ecr-credential-helper/ecr-login v0.0.0-20210521172440-c5b4d8f9502e
+## explicit
 github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api
 github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cache
 github.com/awslabs/amazon-ecr-credential-helper/ecr-login/config
 github.com/awslabs/amazon-ecr-credential-helper/ecr-login/version
 # github.com/beorn7/perks v1.0.1
 github.com/beorn7/perks/quantile
-# github.com/bmizerany/pat v0.0.0-20210406213842-e4b6760bdd6f
+# github.com/bmizerany/pat v0.0.0-20170815010413-6226ea591a40
 github.com/bmizerany/pat
 # github.com/census-instrumentation/opencensus-proto v0.2.1
 github.com/census-instrumentation/opencensus-proto/gen-go/resource/v1
@@ -243,9 +235,9 @@ github.com/cespare/xxhash/v2
 github.com/cloudfoundry/go-socks5
 # github.com/cloudfoundry/socks5-proxy v0.2.6
 github.com/cloudfoundry/socks5-proxy
-# github.com/cncf/udpa/go v0.0.0-20201120205902-5459f2c99403
-github.com/cncf/udpa/go/udpa/annotations
-github.com/cncf/udpa/go/xds/core/v3
+# github.com/cncf/xds/go v0.0.0-20210312221358-fbca930ec8ed
+github.com/cncf/xds/go/udpa/annotations
+github.com/cncf/xds/go/xds/core/v3
 # github.com/cockroachdb/apd v1.1.0
 ## explicit
 # github.com/containers/image v3.0.2+incompatible
@@ -301,7 +293,8 @@ github.com/docker/go-metrics
 # github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7
 ## explicit
 github.com/docker/libtrust
-# github.com/envoyproxy/go-control-plane v0.9.9-0.20210217033140-668b12f5399d
+# github.com/envoyproxy/go-control-plane v0.9.9
+## explicit
 github.com/envoyproxy/go-control-plane/envoy/annotations
 github.com/envoyproxy/go-control-plane/envoy/config/accesslog/v3
 github.com/envoyproxy/go-control-plane/envoy/config/bootstrap/v3
@@ -326,9 +319,12 @@ github.com/envoyproxy/protoc-gen-validate/validate
 github.com/fatih/color
 # github.com/fortytw2/leaktest v1.3.0
 ## explicit
+github.com/fortytw2/leaktest
 # github.com/fsnotify/fsnotify v1.4.9
+## explicit
 github.com/fsnotify/fsnotify
 # github.com/ghodss/yaml v1.0.0
+## explicit
 github.com/ghodss/yaml
 # github.com/go-sql-driver/mysql v1.6.0
 ## explicit
@@ -345,6 +341,7 @@ github.com/gogo/protobuf/proto
 github.com/gogo/protobuf/protoc-gen-gogo/descriptor
 github.com/gogo/protobuf/sortkeys
 # github.com/golang/protobuf v1.5.2
+## explicit
 github.com/golang/protobuf/jsonpb
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/protoc-gen-go/descriptor
@@ -362,7 +359,8 @@ github.com/gorilla/mux
 # github.com/hashicorp/consul/api v1.8.1
 ## explicit
 github.com/hashicorp/consul/api
-# github.com/hashicorp/errwrap v1.0.0
+# github.com/hashicorp/errwrap v1.1.0
+## explicit
 github.com/hashicorp/errwrap
 # github.com/hashicorp/go-cleanhttp v0.5.1
 github.com/hashicorp/go-cleanhttp
@@ -600,7 +598,8 @@ golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 golang.org/x/text/width
-# golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+# golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
+## explicit
 golang.org/x/time/rate
 # google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
 google.golang.org/genproto/googleapis/rpc/status

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	cfhttp "code.cloudfoundry.org/cfhttp/v2"
-	executorfakes "code.cloudfoundry.org/executor/fakes"
+	executorfakes "code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/evacuation/evacuation_context/fake_evacuation_context"
 	"code.cloudfoundry.org/diego-release/rep/repfakes"

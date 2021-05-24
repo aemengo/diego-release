@@ -6,7 +6,7 @@ import (
 	"code.cloudfoundry.org/diego-release/rep/evacuation/evacuation_context/fake_evacuation_context"
 	"code.cloudfoundry.org/diego-release/rep/handlers"
 
-	executorfakes "code.cloudfoundry.org/executor/fakes"
+	executorfakes "code.cloudfoundry.org/diego-release/executor/fakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

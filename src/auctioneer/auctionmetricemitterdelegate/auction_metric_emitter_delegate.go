@@ -3,7 +3,7 @@ package auctionmetricemitterdelegate
 import (
 	"time"
 
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"
 )
 

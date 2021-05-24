@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"code.cloudfoundry.org/diego-release/bbs/models"
-	"code.cloudfoundry.org/executor"
-	efakes "code.cloudfoundry.org/executor/fakes"
+	"code.cloudfoundry.org/diego-release/executor"
+	efakes "code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/operationq"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/evacuation/evacuation_context/fake_evacuation_context"

@@ -3,7 +3,7 @@ package auctionmetricemitterdelegate_test
 import (
 	"time"
 
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	"code.cloudfoundry.org/diego-release/auctioneer/auctionmetricemitterdelegate"
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	mfakes "code.cloudfoundry.org/diego-logging-client/testhelpers"

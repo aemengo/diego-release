@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"code.cloudfoundry.org/diego-release/bbs/models"
-	"code.cloudfoundry.org/executor"
-	fake_client "code.cloudfoundry.org/executor/fakes"
+	"code.cloudfoundry.org/diego-release/executor"
+	fake_client "code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/auctioncellrep"

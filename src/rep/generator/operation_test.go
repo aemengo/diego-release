@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"code.cloudfoundry.org/diego-release/bbs/models"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/generator"
 	"code.cloudfoundry.org/diego-release/rep/generator/internal"

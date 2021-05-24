@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager"
 )
 

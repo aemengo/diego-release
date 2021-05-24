@@ -3,7 +3,7 @@ package auctionrunnerdelegate_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	"code.cloudfoundry.org/diego-release/bbs/fake_bbs"
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	"code.cloudfoundry.org/diego-release/rep"

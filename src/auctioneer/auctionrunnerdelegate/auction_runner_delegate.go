@@ -4,7 +4,7 @@ import (
 	"code.cloudfoundry.org/diego-release/bbs"
 	"code.cloudfoundry.org/diego-release/rep"
 
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	"code.cloudfoundry.org/lager"
 )
 

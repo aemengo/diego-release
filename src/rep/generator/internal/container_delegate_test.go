@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/archiver/extractor/test_helper"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/fakes"
+	"code.cloudfoundry.org/diego-release/executor"
+	"code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep/generator/internal"
 

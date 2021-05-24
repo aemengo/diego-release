@@ -7,7 +7,7 @@ import (
 	"code.cloudfoundry.org/diego-release/bbs"
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/operationq"
 	"code.cloudfoundry.org/diego-release/rep"

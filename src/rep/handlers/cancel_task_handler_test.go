@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/diego-release/rep"
 
 	. "github.com/onsi/ginkgo"

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	"code.cloudfoundry.org/diego-release/auctioneer"
 	"code.cloudfoundry.org/lager"
 )

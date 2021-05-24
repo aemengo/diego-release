@@ -6,8 +6,8 @@ import (
 
 	"code.cloudfoundry.org/diego-release/bbs"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/depot/log_streamer"
+	"code.cloudfoundry.org/diego-release/executor"
+	"code.cloudfoundry.org/diego-release/executor/depot/log_streamer"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/diego-release/rep"
 )

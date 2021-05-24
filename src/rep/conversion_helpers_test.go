@@ -10,7 +10,7 @@ import (
 	"code.cloudfoundry.org/diego-release/bbs/models/test/model_helpers"
 	"code.cloudfoundry.org/diego-release/bbs/test_helpers"
 	fakeecrhelper "code.cloudfoundry.org/ecrhelper/fakes"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/diego-release/rep"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

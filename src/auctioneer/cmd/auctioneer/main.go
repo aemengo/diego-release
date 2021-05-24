@@ -34,8 +34,8 @@ import (
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/tlsconfig"
 
-	"code.cloudfoundry.org/auction/auctionrunner"
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctionrunner"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	"code.cloudfoundry.org/clock"
 	"code.cloudfoundry.org/workpool"
 	"github.com/tedsuo/ifrit"

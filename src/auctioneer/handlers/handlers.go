@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/auction/auctiontypes"
+	"code.cloudfoundry.org/diego-release/auction/auctiontypes"
 	"code.cloudfoundry.org/diego-release/auctioneer"
 	"code.cloudfoundry.org/diego-release/bbs/handlers/middleware"
 	loggingclient "code.cloudfoundry.org/diego-logging-client"

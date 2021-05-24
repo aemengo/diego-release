@@ -8,7 +8,7 @@ import (
 	"sort"
 
 	"code.cloudfoundry.org/diego-release/bbs/models"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/evacuation/evacuation_context"

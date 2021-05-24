@@ -8,7 +8,7 @@ import (
 	"code.cloudfoundry.org/diego-release/bbs/fake_bbs"
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	mfakes "code.cloudfoundry.org/diego-logging-client/testhelpers"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/evacuation/evacuation_context/fake_evacuation_context"

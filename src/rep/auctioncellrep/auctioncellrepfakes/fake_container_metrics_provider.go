@@ -4,7 +4,7 @@ package auctioncellrepfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/executor/containermetrics"
+	"code.cloudfoundry.org/diego-release/executor/containermetrics"
 	"code.cloudfoundry.org/diego-release/rep"
 )
 

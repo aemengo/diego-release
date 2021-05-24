@@ -7,7 +7,7 @@ import (
 
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	"code.cloudfoundry.org/clock"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager"
 	"github.com/tedsuo/ifrit"
 )

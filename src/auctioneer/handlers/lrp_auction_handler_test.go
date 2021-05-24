@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	fake_auction_runner "code.cloudfoundry.org/auction/auctiontypes/fakes"
+	fake_auction_runner "code.cloudfoundry.org/diego-release/auction/auctiontypes/fakes"
 	"code.cloudfoundry.org/diego-release/auctioneer"
 	"code.cloudfoundry.org/diego-release/auctioneer/handlers"
 	"code.cloudfoundry.org/lager"

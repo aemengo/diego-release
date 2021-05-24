@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"code.cloudfoundry.org/diego-release/bbs/models"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/containermetrics"
-	fake_client "code.cloudfoundry.org/executor/fakes"
+	"code.cloudfoundry.org/diego-release/executor"
+	"code.cloudfoundry.org/diego-release/executor/containermetrics"
+	fake_client "code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/auctioncellrep"

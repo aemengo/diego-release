@@ -4,7 +4,7 @@ import (
 	"code.cloudfoundry.org/diego-release/bbs"
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	"code.cloudfoundry.org/ecrhelper"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/diego-release/rep"
 )

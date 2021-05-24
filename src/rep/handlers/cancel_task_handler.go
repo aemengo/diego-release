@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/diego-release/locket/metrics/helpers"
 )

@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"time"
 
-	executorfakes "code.cloudfoundry.org/executor/fakes"
+	executorfakes "code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep/handlers"

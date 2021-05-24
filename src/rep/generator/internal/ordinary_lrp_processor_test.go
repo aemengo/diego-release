@@ -9,7 +9,7 @@ import (
 	"code.cloudfoundry.org/diego-release/bbs/models"
 	"code.cloudfoundry.org/diego-release/bbs/models/test/model_helpers"
 	fakeecrhelper "code.cloudfoundry.org/ecrhelper/fakes"
-	"code.cloudfoundry.org/executor"
+	"code.cloudfoundry.org/diego-release/executor"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep"
 	"code.cloudfoundry.org/diego-release/rep/evacuation/evacuation_context/fake_evacuation_context"

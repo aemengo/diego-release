@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"code.cloudfoundry.org/clock/fakeclock"
-	"code.cloudfoundry.org/executor"
-	"code.cloudfoundry.org/executor/fakes"
+	"code.cloudfoundry.org/diego-release/executor"
+	"code.cloudfoundry.org/diego-release/executor/fakes"
 	"code.cloudfoundry.org/lager"
 	"code.cloudfoundry.org/lager/lagertest"
 	"code.cloudfoundry.org/diego-release/rep"
